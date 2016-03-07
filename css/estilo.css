@@ -1,0 +1,123 @@
+body
+{
+	background-color: #1d1d1d;	
+	font-family: "Monotype Corsiva",Arial;
+}
+#contenedor
+{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+#principal
+{
+	text-align: left;
+	width: 900px;	
+	margin: 0 auto;
+	height: 500px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	color: #1d1d1d;
+	background-color: #dfdfdf;	
+	border-radius: 20px;
+	display: table;	
+}
+#info
+{
+	width: 200px;
+	color: #e44e2d;
+	font-family: cursive;
+	font-size: 11pt;
+}
+#dinamico
+{
+	width: 650px;
+	margin-right: 25px;
+	padding-right: 25px;	
+	overflow-y: auto;
+	max-height: 500px;
+}
+aside 
+{ 
+    display: table-cell;
+}
+article
+{
+	display: table-cell;
+}
+footer
+{
+	text-align: center;
+	color: #fff;
+}
+nav ul li
+{
+	display: inline-block;
+	margin-right: 20px;	
+	cursor: pointer;
+	padding: 5px;
+	font-size: 14pt;
+}
+nav ul li a:hover
+{
+	background-color: #1d1d1d;
+	color:#e44e2d;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+h1
+{
+	color: #e44e2d;
+}
+form
+{
+	font-family: Arial;
+}
+label
+{
+	display: block;
+	font-family: Arial;
+	color: #e44e2d;
+}
+input
+{
+	color: #e44e2d;
+	background-color: #1d1d1d;
+	border-radius: 5px;
+	display: block;
+	padding: 5px;
+}
+table
+{
+	margin: 0 auto;
+	width: 100%;	
+	font-family: Arial;
+	font-size: 10pt;
+	background-color: #000;
+	overflow: auto;
+}
+th
+{
+	color: #e44e2d;
+	text-align: center;
+}
+td
+{
+	padding: 5px;
+	margin-right: 10px;
+	border-style: outset;
+	color:#fff;
+}
+#intro
+{
+	color: #e44e2d;
+	font-size: 16pt;	
+	font-family: Arial;
+}
+#divImagen,#divForm
+{
+float: left;
+}
